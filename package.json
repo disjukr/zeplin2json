@@ -1,0 +1,28 @@
+{
+  "name": "zeplin2json",
+  "version": "0.0.2",
+  "description": "zeplin project to json",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "bin": {
+    "zeplin2json": "./bin/zeplin2json"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "author": "JongChan Choi <jong@chan.moe>",
+  "license": "Zlib",
+  "dependencies": {
+    "@types/node": "^8.0.24",
+    "@types/yargs": "^8.0.2",
+    "puppeteer": "^0.9.0",
+    "yargs": "^8.0.2"
+  },
+  "devDependencies": {
+    "typescript": "^2.4.2"
+  }
+}
